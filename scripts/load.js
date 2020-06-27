@@ -8,8 +8,11 @@ function preload(){
   
     imagemGameOver = loadImage('./images/assets/game-over.png')
     imagemTelaInicial = loadImage('./images/assets/telaInicial.png')
+    imagemVida = loadImage('./images/assets/coracao.png')
 
     fonteTelaInicial = loadFont('./images/assets/fonteTelaInicial.otf')
+
+    fita = loadJSON('fita/fita.json')
 
     somJogo = loadSound('./sounds/trilha_jogo.mp3')
     somPulo = loadSound('./sounds/somPulo.mp3') 

@@ -10,10 +10,13 @@ let fonteTelaInicial
 let jogo
 let telaInicial
 let botaoGerenciador
+let imagemVida
+let fita
 
 let cenario
 let somJogo
 let somPulo
+let vida
 
 let personagem
 let inimigo
